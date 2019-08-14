@@ -3,7 +3,7 @@
 <config>
 	<modules>
 		<Ifuturz_Productcomment>
-			<version>0.1.0</version>
+			<version>0.3.0</version>
 		</Ifuturz_Productcomment>
 	</modules>	
 	<frontend>
@@ -66,6 +66,16 @@
 		
 	</adminhtml>
 	<global>
+		<events>
+			<controller_action_predispatch>
+				<observers>
+					<productcomment_install>
+						<class>Ifuturz_Productcomment_Model_Observer</class>
+						<method>checkInstallation</method>
+					</productcomment_install>					
+				</observers>
+			</controller_action_predispatch>
+		</events>
 		<models>
 			<productcomment>
 				<class>Ifuturz_Productcomment_Model</class>

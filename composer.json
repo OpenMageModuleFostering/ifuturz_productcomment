@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Ifuturz_Productcomment",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Customer can give the comments to particular product from view page using this extension",
+    "authors": [
+    {
+        "name": "Iverve",
+        "email": "extension.geek@ifuturz.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

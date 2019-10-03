@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Ifuturz_Productcomment",
+    "name": "openmage-module-fostering\/ifuturz_productcomment",
     "type": "magento-module",
-    "license": "OSL-v3.0",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Customer can give the comments to particular product from view page using this extension",
     "authors": [
